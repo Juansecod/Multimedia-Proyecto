@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Rocker&family=Rock+Salt&family=RocknRoll+One&display=swap');
+
+.Barfooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Barfooter h2 {
+    margin-left: 2%;
+    font-size: 1.5rem;
+    font-family: "Rock Salt", cursive;
+    color: white;
+}
+
+.LogoRedes {
+    width: 80px;
+    height: 80px;
+}

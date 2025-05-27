@@ -1,0 +1,57 @@
+.Barleft {
+  display: flex;
+  flex-direction: column;
+  width: 38%;
+  padding: 20px;
+  gap: 20px;
+  border-radius: 10px;
+  color: white;
+  font-family: 'RocknRoll One', sans-serif;
+  box-sizing: border-box;
+  margin-left: 1.5%;
+  margin-top: 2%;
+  align-items: center;
+}
+
+.carousel {
+  display: flex;
+  overflow-x: auto;
+  width: 98%;
+  max-height: 312px;
+  justify-content: center;
+}
+
+.carousel img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  flex-shrink: 0;
+  background-color: white;
+}
+
+.info-text {
+  font-size: 0.9rem;
+  line-height: 1.4;
+  text-align: center;
+  width: 96%;
+  color: white;
+}
+
+.spotify-embed {
+  width: 96%;
+}
+
+.map-title {
+  font-size: 44px;
+  font-family: 'New Rocker', cursive;
+  color: white;
+  text-align: center;
+}
+
+.map-embed {
+  width: 100%;
+  overflow: hidden;
+  align-self: center;
+  border-radius: 10px;
+}
+

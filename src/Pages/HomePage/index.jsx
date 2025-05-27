@@ -5,7 +5,7 @@ import LowerHome from '../../Components/LowerHome';
 function HomePage(){
     return (
     <>
-      <NavBar></NavBar>
+      <NavBar backgroundColor='#771111'></NavBar>
       <UpperHome></UpperHome>
       <LowerHome></LowerHome>
     </>
