@@ -7,20 +7,33 @@
 }
 
 .LowerHome h2 {
-    font-size: 53px;
+    font-size: 3.2rem;
     font-family: "Rock Salt", cursive;
     color: #df2929;
 }
 
-.BarLogos{
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    margin-top: -1%;
-    margin-bottom: 2%;
+.BarLogos {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: -1%;
+  margin-bottom: 2%;
+  width: 100%;
+}
+
+.BarLogos a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.LogoWrapper {
+  width: 20%;
+  display: block;
 }
 
 .BarLogo {
-    width: 17%;
-    height: 5%;
+  width: 100%; 
+  height: auto;
+  display: block;
 }

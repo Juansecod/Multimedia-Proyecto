@@ -37,49 +37,32 @@ function LHODPage() {
     </div>
   `;
 
+    const barLeftProps = {
+    images,
+    text,
+    spotifyEmbed,
+    mapEmbed,
+    backgroundColor: "#590C0C",
+  };
+
+    const barRightProps = {
+    title: "La House of Demons",
+    drinks: [
+      { image: foxey, title: 'Bebida 1', text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbitristique senectus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbitristique senectus." },
+      { image: lhod, title: 'Bebida 2', text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbitristique senectus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbitristique senectus." },
+      { image: valhala, title: 'Bebida 3', text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbitristique senectus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbitristique senectus." },
+    ],
+    factTitle: "Sabías que",
+    factText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbitristique senectus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbitristique senectus.',
+    cardImage: bantu,
+  };
+
   return (
     <>
-      <NavBar backgroundColor='#590C0C'/>
+      <NavBar backgroundColor='#590C0C' />
       <div className="Container">
-        
-        <BarRight
-          title="La House of Demons"
-          drinks={[
-            {
-              image: foxey,
-              title: 'Bebida 1',
-              text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbi
-               tristique senectus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbi
-               tristique senectus.`,
-            },
-            {
-              image: lhod,
-              title: 'Bebida 2',
-              text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbi tristique
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbi
-               tristique senectus. senectus.`,
-            },
-            {
-              image: valhala,
-              title: 'Bebida 3',
-              text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbi tristique
-               senectus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbi
-               tristique senectus.`,
-            },
-          ]}
-          factTitle="Sabías que"
-          factText="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbi tristique senectus et netus.
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbi tristique senectus et netus.
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbi tristique senectus et netus."
-          cardImage={bantu}
-        />
-        <BarLeft
-          images={images}
-          text={text}
-          spotifyEmbed={spotifyEmbed}
-          mapEmbed={mapEmbed}
-          backgroundColor="#590C0C"
-        />
+        <BarRight {...barRightProps} />
+        <BarLeft {...barLeftProps} />
       </div>
       <BarFooter backgroundColor='#590C0C'></BarFooter>
     </>

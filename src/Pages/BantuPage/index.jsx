@@ -37,48 +37,32 @@ function BantuPage() {
     </div>
   `;
 
+    const barLeftProps = {
+    images,
+    text,
+    spotifyEmbed,
+    mapEmbed,
+    backgroundColor: "#281e1e",
+  };
+
+    const barRightProps = {
+    title: "Bantu",
+    drinks: [
+      { image: foxey, title: 'Bebida 1', text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbitristique senectus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbitristique senectus." },
+      { image: lhod, title: 'Bebida 2', text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbitristique senectus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbitristique senectus." },
+      { image: valhala, title: 'Bebida 3', text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbitristique senectus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbitristique senectus." },
+    ],
+    factTitle: "Sabías que",
+    factText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbitristique senectus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbitristique senectus.',
+    cardImage: bantu,
+  };
+
   return (
     <>
-      <NavBar backgroundColor='#281e1e'/>
+      <NavBar backgroundColor='#281e1e' />
       <div className="Container">
-        <BarLeft
-          images={images}
-          text={text}
-          spotifyEmbed={spotifyEmbed}
-          mapEmbed={mapEmbed}
-          backgroundColor="#281e1e"
-        />
-        <BarRight
-          title="Bantu"
-          drinks={[
-            {
-              image: foxey,
-              title: 'Bebida 1',
-              text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbi
-               tristique senectus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbi
-               tristique senectus.`,
-            },
-            {
-              image: lhod,
-              title: 'Bebida 2',
-              text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbi tristique
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbi
-               tristique senectus. senectus.`,
-            },
-            {
-              image: valhala,
-              title: 'Bebida 3',
-              text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbi tristique
-               senectus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbi
-               tristique senectus.`,
-            },
-          ]}
-          factTitle="Sabías que"
-          factText="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbi tristique senectus et netus.
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbi tristique senectus et netus.
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbi tristique senectus et netus."
-          cardImage={bantu}
-        />    
+        <BarLeft {...barLeftProps} />
+        <BarRight {...barRightProps} />
       </div>
       <BarFooter backgroundColor='#281e1e'></BarFooter>
     </>
