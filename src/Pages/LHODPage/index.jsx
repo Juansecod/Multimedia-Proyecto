@@ -8,6 +8,8 @@ import bantu from '../../assets/bantu-logo.png';
 import valhala from '../../assets/valhala-logo.png';
 import BarFooter from '../../Components/BarFooter';
 
+import "./LHODPage.css"
+
 function LHODPage() {
   const images = [foxey, lhod, bantu, valhala];
 
@@ -47,6 +49,7 @@ function LHODPage() {
 
     const barRightProps = {
     title: "La House of Demons",
+    separator: (<div className="Line-LHOD"></div>),
     drinks: [
       { image: foxey, title: 'Bebida 1', text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbitristique senectus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbitristique senectus." },
       { image: lhod, title: 'Bebida 2', text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbitristique senectus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbitristique senectus." },

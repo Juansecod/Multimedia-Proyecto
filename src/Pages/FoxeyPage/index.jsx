@@ -12,9 +12,8 @@ import foxeyCarrusel5 from '@/assets/foxey-carrusel-5.jpg';
 import porter from '@/assets/foxey-drink-1.jpg';
 import cuatroHermanos from '@/assets/foxey-drink-2.jpg';
 
-import foxey from '../../assets/foxey-logo.png';
-import lhod from '../../assets/lhod-logo.png';
-import bantu from '../../assets/bantu-logo.png';
+import './FoxeyPage.css'
+
 import valhala from '../../assets/valhala-logo.png';
 
 
@@ -48,6 +47,7 @@ Aquí la cerveza no se toma, se vive. Tienen desde una pola negra intensa como t
 
     const barRightProps = {
     title: "Foxey",
+    separator: (<div className='Line-foxey'></div>),
     drinks: [
       { image: porter, title: 'Porter', text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbitristique senectus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbitristique senectus." },
       { image: cuatroHermanos, title: 'Los 4 Hermanos', text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbitristique senectus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbitristique senectus." },
@@ -70,7 +70,7 @@ Aquí la cerveza no se toma, se vive. Tienen desde una pola negra intensa como t
 
   return (
     <>
-      <NavBar backgroundColor='#190f0f' />
+      <NavBar backgroundColor='#190f0f' active="BARES" />
       <div className="Container">
         <BarLeft {...barLeftProps} />
         <BarRight {...barRightProps} />
