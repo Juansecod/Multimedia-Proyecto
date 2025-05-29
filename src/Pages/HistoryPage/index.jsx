@@ -15,10 +15,13 @@ const HistoryPage = () => (
         </p>
       }
       rightContent={
-        <img
-          src="src/assets/batalla2-multitud.jpg"
-          alt="Multitud en la batalla de bandas en la Macarena 1985"
-        />
+        <>
+          <img
+            src="src/assets/batalla2-multitud.jpg"
+            alt="Multitud en la batalla de bandas en la Macarena 1985"
+          />
+          <p className='bold-rocker' style={{textAlign: "center", margin: "0px"}}>Multitud en la batalla de bandas en la Macarena 1985</p>
+        </>
       }
       alignTitle="left"
     />
@@ -34,6 +37,7 @@ const HistoryPage = () => (
             src="src/assets/festivalancon.jpg"
             alt="Vista del festival de Ancón de 1971"
           />
+          <span className='bold-rocker' style={{textAlign: "center", margin: "0px"}}>Vista del festival de Ancón de 1971</span>
         </>
       }
       rightContent={
@@ -45,6 +49,7 @@ const HistoryPage = () => (
             src="src/assets/parabellum4-castilla.jpg"
             alt="Concierto de la banda Parabellum en Castilla en 1986"
           />
+          <span className='bold-rocker' style={{textAlign: "center", margin: "0px"}}>Concierto de la banda Parabellum en Castilla en 1986</span>
         </>
       }
       alignTitle="center"
@@ -63,10 +68,13 @@ const HistoryPage = () => (
         </p>
       }
       rightContent={
-        <img
-          src="src/assets/Kraken.webp"
-          alt="Integrantes de la Banda Kraken"
-        />
+        <>
+          <img
+            src="src/assets/Kraken.webp"
+            alt="Integrantes de la Banda Kraken"
+          />
+          <p className='bold-rocker' style={{textAlign: "center", margin: "0px"}}>Integrantes de la Banda Kraken</p>
+        </>
       }
       alignTitle="left"
     />
@@ -79,15 +87,18 @@ const HistoryPage = () => (
         </>
       }
       leftContent={
-        <img
-          src="src/assets/batalla4-parabellum.jpg"
-          alt="Parabellum en la batalla de bandas en la Macarena 1985"
-        />
-      }
-      rightContent={
         <p>
           A lo largo de las décadas hubo eventos que marcaron la memoria colectiva. Tras Ancón, el más icónico fue la <span className='bold-rocker-red'>Batalla de las Bandas</span> del 23 de marzo de 1985 en La Macarena, concebida para promover el talento local. Casi 20 años después, en esa misma plaza el municipio lanzó en 2004 el <span className='bold-rocker'>Festival Altavoz</span>, un encuentro anual de rock, metal y punk que atrajo multitudes. En su primera edición (11 de diciembre de 2004) tocaron bandas nacionales como <span className='bold-rocker'>I.R.A, Aterciopelados y Superlitio</span>, y la internacional <span className='bold-rocker'>Kinky</span> (México). El Altavoz continuó consolidándose: por ejemplo, en 2011 la legendaria banda punk inglesa <span className='bold-rocker'>The Adicts</span> dio un concierto inolvidable en Medellín.
         </p>
+      }
+      rightContent={
+        <>
+          <img
+            src="src/assets/batalla4-parabellum.jpg"
+            alt="Parabellum en la batalla de bandas en la Macarena 1985"
+          />
+          <p className='bold-rocker' style={{textAlign: "center", margin: "0px"}}>Parabellum en la batalla de bandas en la Macarena 1985</p>
+        </>
       }
       alignTitle="right"
     />

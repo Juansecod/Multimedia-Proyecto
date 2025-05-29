@@ -38,6 +38,7 @@
   display: block;
   transition: all 1s;
   filter: brightness(0.75);
+  aspect-ratio: 1/1;
 }
 
 .BarLogo:hover{

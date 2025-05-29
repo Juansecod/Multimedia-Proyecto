@@ -1,32 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&family=RocknRoll+One&display=swap');
 
+.stc-section-flex {
+  padding: 2.5rem 2rem;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
 .stc-section {
   padding: 2.5rem 2rem;
 }
 
 .stc-title {
   font-family: 'Rock Salt', cursive;
-  font-size: 2.5rem;
+  font-size: 3rem;
   color: #B91C1C;
   margin-bottom: 0.8rem;
   line-height: 1.1;
-}
-
-.align-left {
-  text-align: left;
-}
-
-.align-center {
   text-align: center;
 }
 
-.align-right {
-  text-align: right;
+.stc-section-flex .stc-content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 1.5rem;
 }
 
 .stc-content {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 1.5rem;
 }
 
@@ -51,7 +54,11 @@
   flex-shrink: 0;
 }
 
-@media (min-width: 768px) {
+img{
+  aspect-ratio: 16/9;
+}
+
+/* @media (min-width: 768px) {
   .stc-content {
     flex-direction: row;
     align-items: stretch;
@@ -61,4 +68,4 @@
     flex-direction: row-reverse;
   }
 
-}
+} */

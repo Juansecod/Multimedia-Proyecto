@@ -6,7 +6,7 @@ function UpperHome() {
   return (
     <div className='UpperHome'>
       <div className='HomeLeft'>
-        <img className='Img' src={HomeImg} alt="Nose" />
+        <img className='Img' src={HomeImg} alt="Concierto en vivo" />
       </div>
       <div className='HomeRight'>
         <h1>El Rock en Medellin</h1>

@@ -8,6 +8,7 @@ const SectionImageGrid = ({ title, text, images, alignTitle = 'left' }) => (
       {images.map((img, i) => (
         <div className="sig-item" key={i}>
           <img src={img.src} alt={img.alt} className="sig-img" />
+          <p className='bold-rocker' style={{textAlign: "center", margin: "0px"}}>{img.alt}</p>
         </div>
       ))}
     </div>
