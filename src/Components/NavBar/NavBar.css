@@ -1,41 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=New+Rocker&display=swap');
 
 .Navbar {
-    display: flex;
-    width: 100%;
-    height: 130px;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #771111
-  }
-  
-  .Navbar h2 {
-  
-    font-family: 'New Rocker', cursive;
-    font-size: 3.1rem;
-    color: white;
-  
-  }
-  
-  .Marca{
-    display: flex;
-    align-items: center;
-    gap: 40px;
-    padding: 5px;
-  }
-  
-  .Logo {
-    height: 102px;
-    width: 102px;
-  }
-  
-  .Navegacion {
-    display: flex;
-    color: white;
-    font-family: 'New Rocker', cursive;
-    font-size: 2.5rem;
-    gap: 45px;
-    padding: 1rem;
-  }
-  
+  display: flex;
+  width: 100%;
+  height: 130px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #771111
+}
+
+.Navbar h2 {
+
+  font-family: 'New Rocker', cursive;
+  font-size: 3.1rem;
+  color: white;
+
+}
+
+.Marca{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 5px;
+}
+
+.Logo {
+  height: 102px;
+  width: 102px;
+}
+
+.Navegacion {
+  display: flex;
+  color: white;
+  font-family: 'New Rocker', cursive;
+  font-size: 2.5rem;
+  gap: 45px;
+  padding: 1rem;
+}
+
+.NavLink {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
   

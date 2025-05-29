@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Rocker&display=swap');
+
+.bold-rocker {
+  font-weight: bold;
+  font-family: 'New Rocker';
+  font-size: 1.2rem;
+}
+
+.bold-rocker-red {
+  font-weight: bold;
+  font-family: 'New Rocker';
+  font-size: 1.2rem;
+  color: #B91C1C;
+}
+
+.stc-title.align-left {
+  padding-left: 2rem;
+}
+
+.stc-title.align-right {
+  padding-right: 3rem;
+}

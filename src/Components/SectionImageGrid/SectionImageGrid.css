@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&family=RocknRoll+One&display=swap');
+
+
+.sig-section {
+  padding: 2.5rem 2rem;
+  margin-bottom: 2rem;
+}
+
+.sig-title {
+  font-family: 'Rock Salt', cursive;
+  font-size: 2.5rem;
+  color: #B91C1C;
+  margin-bottom: 1.5rem;
+  line-height: 1.1;
+}
+
+.align-left   { text-align: left; }
+.align-center { text-align: center; }
+.align-right  { text-align: right; }
+
+.sig-text {
+  font-family: 'RocknRoll One', sans-serif;
+  line-height: 1.8;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+.sig-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+@media (min-width: 768px) {
+  .sig-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.sig-item {
+  text-align: center;
+}
+
+.sig-img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  display: block;
+}
