@@ -15,7 +15,7 @@
 
 .Navbar h2 {
   font-family: 'New Rocker', cursive;
-  font-size: 3.1rem;
+  font-size: 45px;
   color: white;
 }
 
@@ -35,7 +35,6 @@
   display: flex;
   color: white;
   font-family: 'New Rocker', cursive;
-  font-size: 2.5rem;
   gap: 45px;
   padding: 1rem;
 }
@@ -47,11 +46,13 @@
   position: relative;
   display: inline-block;
   text-decoration: none;
+  
 }
 
 .NavLink h3{
   margin: 0 0 10px 0;
   padding: 0;
+  font-size: 39.1px;
 }
 
 .NavLink::after {
