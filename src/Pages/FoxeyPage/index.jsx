@@ -9,7 +9,8 @@ import foxeyCarrusel2 from '@/assets/foxey-carrusel-2.jpg';
 import foxeyCarrusel3 from '@/assets/foxey-carrusel-3.jpg';
 import foxeyCarrusel4 from '@/assets/foxey-carrusel-4.jpg';
 import foxeyCarrusel5 from '@/assets/foxey-carrusel-5.jpg';
-
+import porter from '@/assets/foxey-drink-1.jpg';
+import cuatroHermanos from '@/assets/foxey-drink-2.jpg';
 
 import foxey from '../../assets/foxey-logo.png';
 import lhod from '../../assets/lhod-logo.png';
@@ -48,8 +49,8 @@ Aquí la cerveza no se toma, se vive. Tienen desde una pola negra intensa como t
     const barRightProps = {
     title: "Foxey",
     drinks: [
-      { image: foxey, title: 'Bebida 1', text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbitristique senectus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbitristique senectus." },
-      { image: lhod, title: 'Bebida 2', text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbitristique senectus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbitristique senectus." },
+      { image: porter, title: 'Porter', text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbitristique senectus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbitristique senectus." },
+      { image: cuatroHermanos, title: 'Los 4 Hermanos', text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbitristique senectus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbitristique senectus." },
       { image: valhala, title: 'Bebida 3', text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbitristique senectus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbitristique senectus." },
     ],
     factTitle: "Sabías que",
