@@ -7,6 +7,7 @@
 }
 
 .LowerHome h2 {
+    margin: 0;
     font-size: 3.2rem;
     font-family: "Rock Salt", cursive;
     color: #df2929;
@@ -14,11 +15,10 @@
 
 .BarLogos {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   gap: 30px;
-  margin-top: -1%;
-  margin-bottom: 2%;
   width: 100%;
+  margin-bottom: 25px;
 }
 
 .BarLogos a {
@@ -33,7 +33,14 @@
 }
 
 .BarLogo {
-  width: 100%; 
+  width: 100%;
   height: auto;
   display: block;
+  transition: all 1s;
+  filter: brightness(0.75);
+}
+
+.BarLogo:hover{
+  transform: scale(1.1);
+  filter: brightness(1);
 }

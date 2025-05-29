@@ -5,7 +5,7 @@ import './HistoryPage.css';
 
 const HistoryPage = () => (
   <>
-    <Navbar backgroundColor='771111'></Navbar>
+    <Navbar backgroundColor='771111' active="HISTORY"></Navbar>
 
     <SectionTwoColumns
       title="Así empezó este parche"
