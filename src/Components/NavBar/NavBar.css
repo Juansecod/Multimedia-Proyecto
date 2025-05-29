@@ -71,4 +71,18 @@
 .NavLink:hover::after, .NavLink.Active::after {
   opacity: 1;
 }
-  
+
+@import url('https://fonts.googleapis.com/css2?family=New+Rocker&family=Rock+Salt&family=RocknRoll+One&display=swap');  
+
+.HintTooltip{
+  position: absolute;
+  width: fit-content;
+  background-color: #3B0808;
+  font-family: "RocknRoll One", sans-serif;
+  font-size: 24px;
+  margin-left: -10%;
+  margin-top: 15px;
+  border-radius: 15px;
+  text-align: center;
+  padding: 10px 20px;
+}
