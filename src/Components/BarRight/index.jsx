@@ -1,11 +1,11 @@
 import React from 'react';
 import './BarRight.css';
 
-const BarRight = ({ title, drinks, factTitle, factText, cardImage }) => {
+const BarRight = ({ title, separator, drinks, factTitle, factText, cardImage }) => {
   return (
     <div className="bar-right">
       <h1 className="main-title">{title}</h1>
-
+      {separator}
       {drinks.map((drink, index) => (
         <div
           key={index}

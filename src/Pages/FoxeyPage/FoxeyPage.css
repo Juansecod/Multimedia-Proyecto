@@ -1,0 +1,8 @@
+.Line-foxey {
+    display: flex;
+    width: 100%;
+    height: 20px;
+    background-image: url('../../assets/Separador-foxey.svg');
+    background-repeat: repeat-x;
+    margin-bottom: 1.5rem;
+}
