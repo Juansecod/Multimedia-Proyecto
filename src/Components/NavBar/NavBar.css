@@ -6,15 +6,15 @@
   height: 130px;
   align-items: center;
   justify-content: space-between;
-  background-color: #771111
+  background-color: #771111;
+  padding: 10px 80px;
+  box-sizing: border-box;
 }
 
 .Navbar h2 {
-
   font-family: 'New Rocker', cursive;
   font-size: 3.1rem;
   color: white;
-
 }
 
 .Marca{
@@ -39,8 +39,34 @@
 }
 
 .NavLink {
-  text-decoration: none;
+  width: fit-content;
   color: inherit;
   cursor: pointer;
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.NavLink h3{
+  margin: 0 0 10px 0;
+  padding: 0;
+}
+
+.NavLink::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 15px;
+  width: 100%;
+  background-image: url('../../assets/Navbar-Decoration.svg');
+  background-repeat: repeat-x;
+  background-size: 100% auto;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.NavLink:hover::after, .NavLink.Active::after {
+  opacity: 1;
 }
   

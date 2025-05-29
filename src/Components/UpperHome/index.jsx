@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import HomeImg from '../../assets/imagen-home.png';
+import HomeImg from '../../assets/Imagen-home.png';
 import './UpperHome.css';
 
 function UpperHome() {

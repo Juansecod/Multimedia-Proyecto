@@ -1,0 +1,6 @@
+.Line {
+  width: 100%;
+  height: 20px; /* o lo que mida tu línea */
+  background-image: url('../../assets/Separador.svg');
+  background-repeat: repeat-x;
+}
