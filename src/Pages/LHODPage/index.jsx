@@ -57,6 +57,13 @@ function LHODPage() {
     cardImage: bantu,
   };
 
+    const barFooterProps = {
+      backgroundColor: "#590C0C",
+      instagram:"https://www.instagram.com/example",
+      tiktok:"https://tiktok.com/example",
+      facebook:"https://facebook.com/example"
+    }
+
   return (
     <>
       <NavBar backgroundColor='#590C0C' />
@@ -64,7 +71,8 @@ function LHODPage() {
         <BarRight {...barRightProps} />
         <BarLeft {...barLeftProps} />
       </div>
-      <BarFooter backgroundColor='#590C0C'></BarFooter>
+      <BarFooter {...barFooterProps}
+      />
     </>
   );
 }

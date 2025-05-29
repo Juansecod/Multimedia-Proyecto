@@ -57,6 +57,14 @@ function FoxeyPage() {
     cardImage: bantu,
   };
 
+  const barFooterProps = {
+      backgroundColor: "#190f0f",
+      instagram:"https://www.instagram.com/example",
+      tiktok:"https://tiktok.com/example",
+      facebook:"https://facebook.com/example"
+    }
+
+
   return (
     <>
       <NavBar backgroundColor='#190f0f' />
@@ -64,7 +72,7 @@ function FoxeyPage() {
         <BarLeft {...barLeftProps} />
         <BarRight {...barRightProps} />
       </div>
-      <BarFooter backgroundColor='#190f0f'></BarFooter>
+      <BarFooter {...barFooterProps} />
     </>
   );
 }

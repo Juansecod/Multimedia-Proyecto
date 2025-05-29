@@ -57,6 +57,13 @@ function BantuPage() {
     cardImage: bantu,
   };
 
+      const barFooterProps = {
+      backgroundColor: "#281e1e",
+      instagram:"https://www.instagram.com/example",
+      tiktok:"https://tiktok.com/example",
+      facebook:"https://facebook.com/example"
+    }
+
   return (
     <>
       <NavBar backgroundColor='#281e1e' />
@@ -64,7 +71,7 @@ function BantuPage() {
         <BarLeft {...barLeftProps} />
         <BarRight {...barRightProps} />
       </div>
-      <BarFooter backgroundColor='#281e1e'></BarFooter>
+      <BarFooter {...barFooterProps} />
     </>
   );
 }
