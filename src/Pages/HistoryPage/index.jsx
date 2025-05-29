@@ -19,6 +19,7 @@ const HistoryPage = () => (
           <img
             src="src/assets/batalla2-multitud.jpg"
             alt="Multitud en la batalla de bandas en la Macarena 1985"
+            loading='lazy'
           />
           <p className='bold-rocker' style={{textAlign: "center", margin: "0px"}}>Multitud en la batalla de bandas en la Macarena 1985</p>
         </>
@@ -36,6 +37,7 @@ const HistoryPage = () => (
           <img
             src="src/assets/festivalancon.jpg"
             alt="Vista del festival de Ancón de 1971"
+            loading='lazy'
           />
           <span className='bold-rocker' style={{textAlign: "center", margin: "0px"}}>Vista del festival de Ancón de 1971</span>
         </>
@@ -48,6 +50,7 @@ const HistoryPage = () => (
           <img
             src="src/assets/parabellum4-castilla.jpg"
             alt="Concierto de la banda Parabellum en Castilla en 1986"
+            loading='lazy'
           />
           <span className='bold-rocker' style={{textAlign: "center", margin: "0px"}}>Concierto de la banda Parabellum en Castilla en 1986</span>
         </>
@@ -72,6 +75,7 @@ const HistoryPage = () => (
           <img
             src="src/assets/Kraken.webp"
             alt="Integrantes de la Banda Kraken"
+            loading='lazy'
           />
           <p className='bold-rocker' style={{textAlign: "center", margin: "0px"}}>Integrantes de la Banda Kraken</p>
         </>
@@ -96,6 +100,7 @@ const HistoryPage = () => (
           <img
             src="src/assets/batalla4-parabellum.jpg"
             alt="Parabellum en la batalla de bandas en la Macarena 1985"
+            loading='lazy'
           />
           <p className='bold-rocker' style={{textAlign: "center", margin: "0px"}}>Parabellum en la batalla de bandas en la Macarena 1985</p>
         </>

@@ -11,7 +11,7 @@ const BarRight = ({ title, drinks, factTitle, factText, cardImage }) => {
           key={index}
           className={`drink-section ${index % 2 === 1 ? 'reverse' : ''}`}
         >
-          <img src={drink.image} alt={`drink-${index}`} className="drink-image" />
+          <img src={drink.image} alt={`drink-${index}`} className="drink-image" loading='lazy'/>
           <div className="drink-content">
             <h2>{drink.title}</h2>
             <p>{drink.text}</p>
@@ -25,7 +25,7 @@ const BarRight = ({ title, drinks, factTitle, factText, cardImage }) => {
           <p>{factText}</p>
         </div>
         <div className="meme">
-          <img src={cardImage} alt="card" className="meme-image" />
+          <img src={cardImage} alt="card" className="meme-image" loading='lazy' />
         </div>
       </div>
     </div>

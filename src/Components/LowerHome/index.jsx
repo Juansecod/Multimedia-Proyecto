@@ -12,16 +12,16 @@ function LowerHome() {
       <h2>Donde tomar Pilpsens</h2>
       <div className='BarLogos' style={{padding: "0px 20px"}}>
         <Link className='LogoWrapper' to="/Foxey">
-          <img className='BarLogo' src={LogoFoxey} alt="Foxey" />
+          <img className='BarLogo' src={LogoFoxey} alt="Foxey" loading='lazy'/>
         </Link>
         <Link className='LogoWrapper' to="/LHOD">
-          <img className='BarLogo' src={LogoLHOD} alt="LHOD" />
+          <img className='BarLogo' src={LogoLHOD} alt="LHOD" loading='lazy'/>
         </Link>
         <Link className='LogoWrapper' to="/Valhala">
-          <img className='BarLogo' src={LogoValhala} alt="Valhala" />
+          <img className='BarLogo' src={LogoValhala} alt="Valhala" loading='lazy'/>
         </Link>
         <Link className='LogoWrapper' to="/Bantu">
-          <img className='BarLogo' src={LogoBantu} alt="Bantu" />
+          <img className='BarLogo' src={LogoBantu} alt="Bantu" loading='lazy'/>
         </Link>
       </div>
     </div>

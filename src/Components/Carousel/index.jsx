@@ -13,7 +13,7 @@ const Carousel = ({ images }) => {
 
   return (
     <div className="carousel">
-      <img src={images[currentIndex]} alt={`slide-${currentIndex}`} />
+      <img src={images[currentIndex]} alt={`slide-${currentIndex}`} loading='lazy'/>
     </div>
   );
 };
