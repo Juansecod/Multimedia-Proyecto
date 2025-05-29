@@ -18,3 +18,17 @@
     display: flex;
     gap: 15px;
 }
+
+.btn-network{
+    display: flex;
+    width: 64px; 
+    height: 64px; 
+    justify-content: center; 
+    align-items: center; 
+    border-radius: 50%;
+    background-color: #FFFFFF; 
+}
+
+.btn-network:hover{
+    background-color: #DADADA;
+}
