@@ -13,12 +13,7 @@ import './BantuPage.css'
 function BantuPage() {
   const images = [foxey, lhod, bantu, valhala];
 
-  const text = `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.`;
+  const text = `Aquí no vienes solo a tomar cerveza: vienes a revivir himnos eternos. Guitarras que lloran, voces que acarician y letras que aún laten fuerte. Nuestras cervezas artesanales son tan intensas como los solos que llenan el aire. Desde Led Zeppelin hasta  Bon Jovi, cada canción es un trago de nostalgia y rebeldía. Este no es un bar, es un escenario para el alma. Si el rock es tu refugio, acabas de encontrar tu hogar.`;
 
   const spotifyEmbed = `
     <iframe style="border-radius:12px" 
