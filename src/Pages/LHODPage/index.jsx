@@ -47,7 +47,9 @@ function LHODPage() {
       { image: houseDrink3, title: 'Ave Satanas', text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbitristique senectus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbitristique senectus." },
     ],
     factTitle: "Sabías que",
-    factText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbitristique senectus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbitristique senectus.',
+    factText: (<p>
+      La House of Demons nació como <span className='new-rocker-font' style={{fontSize: "20px"}}>Demon Fit</span>, un espacio pensado para metaleros que llevaban su espíritu guerrero al gimnasio. Pero algo más poderoso se estaba gestando. Nos dimos cuenta de que los verdaderos hijos del metal no solo buscaban levantar pesas: querían un templo donde pudieran levantar el alma al ritmo de riffs brutales, con una buena cerveza en la mano y comida digna del infierno. Aunque ahora es la catedral del metal en Medellín, la esencia fitness no murió: se convirtió en una línea de ropa exclusiva para guerreros del metal que también sudan hierro.
+      </p>),
     cardImage: momo,
   };
 
