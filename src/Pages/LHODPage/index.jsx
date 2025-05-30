@@ -1,42 +1,32 @@
 import BarLeft from '../../Components/BarLeft';
 import BarRight from '../../Components/BarRight';
 import NavBar from '../../Components/NavBar';
-
-import foxey from '../../assets/foxey-logo.png';
-import lhod from '../../assets/lhod-logo.png';
-import bantu from '../../assets/bantu-logo.png';
-import valhala from '../../assets/valhala-logo.png';
 import BarFooter from '../../Components/BarFooter';
+
+import momo from '../../assets/Meme_invocando_anvorguesa.webp';
+
+import houseCarrusel1 from '@/assets/house-demon-1.jpg';
+import houseCarrusel2 from '@/assets/house-demon-2.jpg';
+import houseCarrusel3 from '@/assets/house-demon-3.png';
+import houseCarrusel4 from '@/assets/house-demon-4.png';
+import houseDrink1 from '@/assets/house-drink-1.jpg';
+import houseDrink2 from '@/assets/house-drink-2.jpg';
+import houseDrink3 from '@/assets/house-drink-3.jpg';
+
 
 import "./LHODPage.css"
 
 function LHODPage() {
-  const images = [foxey, lhod, bantu, valhala];
+  const images = [houseCarrusel1, houseCarrusel2, houseCarrusel3, houseCarrusel4];
 
-  const text = `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.`;
+  const text = <p>Bienvenido al <span className="new-rocker-font" style={{fontSize: "20px"}}>santuario del metal</span> en Medellín. Aquí no vienes a tomar una cerveza; vienes a sumergirte en un ritual de riffs infernales, cervezas que arden como lava y hamburguesas que desafían a los dioses. Este no es un bar común; es un santuario para los espíritus oscuros que encuentran en el metal su verdadera voz. Desde las profundidades del Ultra Metal hasta los ecos del black metal noruego, nuestras paredes resuenan con la historia de una ciudad que convirtió su caos en arte sonoro.</p>;
 
   const spotifyEmbed = `
-    <iframe style="border-radius:12px" 
-      src="https://open.spotify.com/embed/track/27xkOIER6uDLKALIelHylZ?utm_source=generator" 
-      width="100%" height="152" frameBorder="0" allowfullscreen="" 
-      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
-      loading="lazy">
-    </iframe>
+    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4qjvr0qMFUo26SxwC4VygS?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
   `;
 
   const mapEmbed = `
-    <div style="max-width:100%;overflow:hidden;color:red;width:500px;height:500px;">
-      <div id="embed-map-canvas" style="height:100%; width:100%;max-width:100%;">
-        <iframe style="height:100%;width:100%;border:0;" frameborder="0"
-          src="https://www.google.com/maps/embed/v1/place?q=foxey+pub&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
-        </iframe>
-      </div>
-    </div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.184415085602!2d-75.6029875249825!3d6.23940862639945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e442962aca3a4a7%3A0xa654e49e746b3c13!2sLa%20House%20Of%20Demons!5e0!3m2!1ses-419!2sco!4v1748571064787!5m2!1ses-419!2sco" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   `;
 
     const barLeftProps = {
@@ -51,13 +41,13 @@ function LHODPage() {
     title: "La House of Demons",
     separator: (<div className="Line-LHOD"></div>),
     drinks: [
-      { image: foxey, title: 'Bebida 1', text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbitristique senectus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbitristique senectus." },
-      { image: lhod, title: 'Bebida 2', text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbitristique senectus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbitristique senectus." },
-      { image: valhala, title: 'Bebida 3', text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbitristique senectus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbitristique senectus." },
+      { image: houseDrink1, title: 'La 4 Hermanos', text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbitristique senectus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbitristique senectus." },
+      { image: houseDrink2, title: 'Erdinger', text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbitristique senectus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbitristique senectus." },
+      { image: houseDrink3, title: 'Ave Satanas', text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbitristique senectus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbitristique senectus." },
     ],
     factTitle: "Sabías que",
     factText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbitristique senectus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbitristique senectus.',
-    cardImage: bantu,
+    cardImage: momo,
   };
 
     const barFooterProps = {
@@ -69,7 +59,7 @@ function LHODPage() {
 
   return (
     <>
-      <NavBar backgroundColor='#590C0C' />
+      <NavBar backgroundColor='#590C0C' active="BARES" />
       <div className="Container">
         <BarRight {...barRightProps} />
         <BarLeft {...barLeftProps} />
