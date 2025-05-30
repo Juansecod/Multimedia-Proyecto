@@ -11,11 +11,9 @@ import foxeyCarrusel4 from '@/assets/foxey-carrusel-4.jpg';
 import foxeyCarrusel5 from '@/assets/foxey-carrusel-5.jpg';
 import porter from '@/assets/foxey-drink-1.jpg';
 import cuatroHermanos from '@/assets/foxey-drink-2.jpg';
+import coctail from '@/assets/foxey-drink-3.jpg';
 
-import './FoxeyPage.css'
-
-import valhala from '../../assets/valhala-logo.png';
-
+import './FoxeyPage.css';
 
 function FoxeyPage() {
   const images = [foxeyCarrusel1, foxeyCarrusel2, foxeyCarrusel3, foxeyCarrusel4, foxeyCarrusel5];
@@ -51,7 +49,7 @@ Aquí la cerveza no se toma, se vive. Tienen desde una pola negra intensa como t
     drinks: [
       { image: porter, title: 'Porter', text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbitristique senectus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbitristique senectus." },
       { image: cuatroHermanos, title: 'Los 4 Hermanos', text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbitristique senectus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbitristique senectus." },
-      { image: valhala, title: 'Bebida 3', text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbitristique senectus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbitristique senectus." },
+      { image: coctail, title: 'Moscow Mule', text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbitristique senectus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbitristique senectus." },
     ],
     factTitle: "Sabías que",
     factText: (<p>
@@ -62,9 +60,9 @@ Aquí la cerveza no se toma, se vive. Tienen desde una pola negra intensa como t
 
   const barFooterProps = {
       backgroundColor: "#190f0f",
-      instagram:"https://www.instagram.com/example",
-      tiktok:"https://tiktok.com/example",
-      facebook:"https://facebook.com/example"
+      instagram:"https://www.instagram.com/foxeypub",
+      tiktok:"https://www.tiktok.com/@foxeypub",
+      facebook:"https://www.facebook.com/foxeypub"
     }
 
 

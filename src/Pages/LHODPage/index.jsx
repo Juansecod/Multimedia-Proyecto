@@ -7,8 +7,9 @@ import momo from '../../assets/Meme_invocando_anvorguesa.webp';
 
 import houseCarrusel1 from '@/assets/house-demon-1.jpg';
 import houseCarrusel2 from '@/assets/house-demon-2.jpg';
-import houseCarrusel3 from '@/assets/house-demon-3.png';
+import houseCarrusel3 from '@/assets/house-demon-3.jpg';
 import houseCarrusel4 from '@/assets/house-demon-4.png';
+import houseCarrusel5 from '@/assets/house-demon-5.jpg';
 import houseDrink1 from '@/assets/house-drink-1.jpg';
 import houseDrink2 from '@/assets/house-drink-2.jpg';
 import houseDrink3 from '@/assets/house-drink-3.jpg';
@@ -17,7 +18,7 @@ import houseDrink3 from '@/assets/house-drink-3.jpg';
 import "./LHODPage.css"
 
 function LHODPage() {
-  const images = [houseCarrusel1, houseCarrusel2, houseCarrusel3, houseCarrusel4];
+  const images = [ houseCarrusel2, houseCarrusel3, houseCarrusel4, houseCarrusel5, houseCarrusel1];
 
   const text = <p>Bienvenido al <span className="new-rocker-font" style={{fontSize: "20px"}}>santuario del metal</span> en Medellín. Aquí no vienes a tomar una cerveza; vienes a sumergirte en un ritual de riffs infernales, cervezas que arden como lava y hamburguesas que desafían a los dioses. Este no es un bar común; es un santuario para los espíritus oscuros que encuentran en el metal su verdadera voz. Desde las profundidades del Ultra Metal hasta los ecos del black metal noruego, nuestras paredes resuenan con la historia de una ciudad que convirtió su caos en arte sonoro.</p>;
 
@@ -52,9 +53,9 @@ function LHODPage() {
 
     const barFooterProps = {
       backgroundColor: "#590C0C",
-      instagram:"https://www.instagram.com/example",
-      tiktok:"https://tiktok.com/example",
-      facebook:"https://facebook.com/example"
+      instagram:"https://www.instagram.com/lahouseofdemonsofficial/",
+      tiktok:"https://www.tiktok.com/@lahouseofdemons",
+      facebook:"https://es-la.facebook.com/lahouseofdemons/"
     }
 
   return (
