@@ -42,9 +42,9 @@ function LHODPage() {
     title: "La House of Demons",
     separator: (<div className="Line-LHOD"></div>),
     drinks: [
-      { image: houseDrink1, title: 'La 4 Hermanos', text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbitristique senectus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbitristique senectus." },
-      { image: houseDrink2, title: 'Erdinger', text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbitristique senectus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbitristique senectus." },
-      { image: houseDrink3, title: 'Ave Satanas', text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbitristique senectus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbitristique senectus." },
+      { image: houseDrink1, title: 'La 4 Hermanos IPA', text: "No es solo una pola, es una ofrenda para los que saben que incluso la calma tiene su poder. Forjada en Medellín, esta IPA suave y cítrica no necesita gritar para hacerse notar. Su alma ligera es perfecta para esos momentos de tregua entre batallas, cuando los guerreros del día se recuestan a respirar, con buena música y mejor compañía. Una pola nacida para el ritual tranquilo... pero nunca aburrido."},
+      { image: houseDrink2, title: 'Erdinger', text: "No todas las polas nacen iguales. Algunas, como la Erdinger, descienden de una tradición alemana milenaria, elaborada con maltas sagradas y fermentada durante semanas dentro de la botella, como si cada sorbo fuera una ceremonia digna del viejo mundo. Su proceso lento y meticuloso no es un lujo: es una declaración de respeto por el verdadero arte cervecero. Sí, su precio es más alto… pero cuando levantas una Erdinger, no estás pagando por una pola: estás invocando una experiencia. Un trago que honra tu paladar y tu tiempo" },
+      { image: houseDrink3, title: 'Ave Satanas', text: "Una receta traída desde el infierno, un cóctel en el que se combinan los sabores añejos del ron con las hierbas oscuras y misteriosas del Jägermeister, dignas de rituales de magia negra. Una combinación peligrosa, pero capaz de llevarte al cielo... o quizás no. Descúbrela por ti mismo." },
     ],
     factTitle: "Sabías que",
     factText: (<p>

@@ -43,12 +43,12 @@ function BantuPage() {
     title: "Bantu",
     separator: (<div className="Line-bantu"></div>),
     drinks: [
-      { image: bantuDrink1, title: 'Tenessee Whiskey', text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbitristique senectus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbitristique senectus." },
-      { image: bantuDrink2, title: 'Tropical IPA', text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbitristique senectus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbitristique senectus." },
-      { image: bantuDrink3, title: 'Porter', text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbitristique senectus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbitristique senectus." },
+      { image: bantuDrink1, title: 'Tenessee Whiskey', text: "Nacida del fuego lento y la madera vieja, esta rojinegra lleva en el alma el susurro del whiskey. Un cuerpo profundo con destellos ámbar, donde el dulzor maltoso se mezcla con la calidez sutil del Tennessee, potenciando cada sorbo sin robarle ligereza. Es para quienes buscan intensidad sin estridencias, sabor con historia. Acompaña bien los silencios largos, las miradas que dicen mucho y los brindis que no necesitan ruido." },
+      { image: bantuDrink2, title: 'Tropical IPA', text: "Nacida donde el sol nunca se esconde, esta Tropical IPA es un choque brillante entre lo salvaje y lo fresco. Frutas tropicales explotan al primer sorbo —mango, maracuyá, algo de piña—, mientras un amargor juguetón equilibra la dulzura y la mantiene viva. Es para los que creen que el verano no es una estación, sino una actitud. Ligera pero con carácter, es ideal para tardes largas, risas fáciles y playlists que huelen a mar." },
+      { image: bantuDrink3, title: 'Porter', text: "Nacida entre cielos grises y noches largas, esta porter oscura trae el equilibrio perfecto: amargor medio que despierta, y notas achocolatadas que abrazan. Es para los que entienden que la oscuridad también tiene dulzura, que no todo lo intenso tiene que ser pesado. Con cuerpo ligero y sabor profundo, es la compañera ideal para charlas lentas, playlists con alma y finales de día que saben a victoria silenciosa." },
     ],
     factTitle: "Sabías que",
-    factText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbitristique senectus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbitristique senectus.',
+    factText: 'Bantú fue uno de los primeros bares en apostar por el rock en Medellín, en una época (antes del 92) en la que no era común encontrar este género en la escena nocturna de la ciudad. Lo más rebelde: lo hizo justo en la curva de la UdeA, un sector conocido por bares más tradicionales y públicos más tranquilos. Pero Bantú llegó a romper esquemas: puso el desorden, el ruido y el rock al frente, y desde ahí empezó una movida que cambiaría para siempre la forma de rumbear en ese rincón de Medellín.',
     cardImage: momo,
   };
 
