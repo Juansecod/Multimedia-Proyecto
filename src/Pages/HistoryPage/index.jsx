@@ -3,6 +3,13 @@ import SectionTwoColumns from '../../Components/SectionTwoColumns';
 import SectionImageGrid from '../../Components/SectionImageGrid';
 import './HistoryPage.css';
 
+import batalla2Multitud from '@/assets/batalla2-multitud.jpg';
+import festivalancon from '@/assets/festivalancon.jpg';import parabellum4Castilla from '@/assets/parabellum4-castilla.jpg';
+import krakenImg from '@/assets/Kraken.webp';
+import batalla4Parabellum from '@/assets/batalla4-parabellum.jpg';
+import batalla5Policia from '@/assets/batalla5-policia.jpg';
+import batalla1Salida from '@/assets/batalla1-salida.jpg';
+
 const HistoryPage = () => (
   <>
     <Navbar backgroundColor='771111' active="HISTORY"></Navbar>
@@ -17,7 +24,7 @@ const HistoryPage = () => (
       rightContent={
         <>
           <img
-            src="src/assets/batalla2-multitud.jpg"
+            src={batalla2Multitud}
             alt="Multitud en la batalla de bandas en la Macarena 1985"
             loading='lazy'
           />
@@ -35,7 +42,7 @@ const HistoryPage = () => (
             Desde fines de los 70s y sobre todo en los 80s, Medellín fue un vórtice de violencia donde el metal se hizo banda sonora de una juventud desafiante. En 1971 ya se había celebrado el <span className='bold-rocker'>Festival de Ancón</span> (18-20 de junio), denominado por la prensa como un “atentado” contra la moral conservadora: el primer gran hito rockero paisa. Durante los 80, el género dominante fue el <span className='bold-rocker-red'>“Metal Medallo”</span>: sonido pesado y distorsionado, letras nihilistas y estéticas antisistema.
           </p>
           <img
-            src="src/assets/festivalancon.jpg"
+            src={festivalancon}
             alt="Vista del festival de Ancón de 1971"
             loading='lazy'
           />
@@ -48,7 +55,7 @@ const HistoryPage = () => (
             En Medellín aparecieron así grupos pioneros del metal extremo: fusiones de thrash, death y black no comerciales que se opusieron al establishment. Por ejemplo, el grupo <span className='bold-rocker'>Parabellum</span> (del barrio Buenos Aires) nombró sus canciones con temas de guerra y ocultismo, mientras que bandas como <span className='bold-rocker'>Mierda</span> y <span className='bold-rocker'>Masacre</span> llevaron el sonido al límite. Sus letras atacaban la tradición religiosa paisa y la violencia social: eran un eco siniestro de la atmósfera urbana del terror.
           </p>
           <img
-            src="src/assets/parabellum4-castilla.jpg"
+            src={parabellum4Castilla}
             alt="Concierto de la banda Parabellum en Castilla en 1986"
             loading='lazy'
           />
@@ -73,7 +80,7 @@ const HistoryPage = () => (
       rightContent={
         <>
           <img
-            src="src/assets/Kraken.webp"
+            src={krakenImg}
             alt="Integrantes de la Banda Kraken"
             loading='lazy'
           />
@@ -98,7 +105,7 @@ const HistoryPage = () => (
       rightContent={
         <>
           <img
-            src="src/assets/batalla4-parabellum.jpg"
+            src={batalla4Parabellum}
             alt="Parabellum en la batalla de bandas en la Macarena 1985"
             loading='lazy'
           />
@@ -128,11 +135,11 @@ const HistoryPage = () => (
       }
       images={[
         {
-          src: 'src/assets/batalla5-policia.jpg',
+          src: batalla5Policia,
           alt: 'Policías lanzando agua para detener los disturbios en la batalla de bandas',
         },
         {
-          src: 'src/assets/batalla1-salida.jpg',
+          src: batalla1Salida,
           alt: 'Sector exterior de la Macarena antes de la batalla de bandas',
         },
       ]}
