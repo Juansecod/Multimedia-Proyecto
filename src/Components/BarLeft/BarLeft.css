@@ -8,7 +8,6 @@
   color: white;
   font-family: 'RocknRoll One', sans-serif;
   box-sizing: border-box;
-  margin-left: 1.5%;
   margin-top: 2%;
   align-items: center;
 }
@@ -16,7 +15,7 @@
 .carousel {
   display: flex;
   overflow-x: auto;
-  width: 98%;
+  width: 100%;
   max-height: 312px;
   justify-content: center;
 }
@@ -38,7 +37,7 @@
 }
 
 .spotify-embed {
-  width: 96%;
+  width: 100%;
 }
 
 .map-title {
@@ -52,6 +51,6 @@
   width: 100%;
   overflow: hidden;
   align-self: center;
-  border-radius: 10px;
+  border-radius: 15px;
 }
 

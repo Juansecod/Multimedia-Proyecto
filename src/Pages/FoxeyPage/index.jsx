@@ -11,11 +11,9 @@ import foxeyCarrusel4 from '@/assets/foxey-carrusel-4.jpg';
 import foxeyCarrusel5 from '@/assets/foxey-carrusel-5.jpg';
 import porter from '@/assets/foxey-drink-1.jpg';
 import cuatroHermanos from '@/assets/foxey-drink-2.jpg';
+import coctail from '@/assets/foxey-drink-3.jpg';
 
-import './FoxeyPage.css'
-
-import valhala from '../../assets/valhala-logo.png';
-
+import './FoxeyPage.css';
 
 function FoxeyPage() {
   const images = [foxeyCarrusel1, foxeyCarrusel2, foxeyCarrusel3, foxeyCarrusel4, foxeyCarrusel5];
@@ -49,9 +47,9 @@ Aquí la cerveza no se toma, se vive. Tienen desde una pola negra intensa como t
     title: "Foxey",
     separator: (<div className='Line-foxey'></div>),
     drinks: [
-      { image: porter, title: 'Porter', text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbitristique senectus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbitristique senectus." },
-      { image: cuatroHermanos, title: 'Los 4 Hermanos', text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbitristique senectus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbitristique senectus." },
-      { image: valhala, title: 'Bebida 3', text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbitristique senectus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbitristique senectus." },
+      { image: porter, title: 'Porter by Foxey', text: "Una cerveza artesanal oscura y elegante que desafía las expectativas con un amargor pronunciado que permanece en el paladar, recordándote que estás disfrutando de una bebida exótica y sabrosa. Su aroma discreto, con leves notas tostadas, anticipa la intensidad de lo que estás a punto de probar. Una cerveza negra única que no querrás dejar pasar." },
+      { image: cuatroHermanos, title: 'Andor by Dogpi', text: "Desde una galaxia muy, muy lejana, Dogpi nos trae una cerveza que conquista los sentidos con su inconfundible sabor. Inspirada en el universo de Star Wars, esta creación galáctica combina el dulzor envolvente del chocolate caramelizado con la suavidad de la cebada cuidadosamente seleccionada. Cada sorbo es un viaje interestelar que te transporta más allá de los límites del paladar, directo a la galaxia de origen de Dogpi. Ideal para jedis del buen gusto y rebeldes cerveceros que buscan algo realmente único." },
+      { image: coctail, title: 'Moscow Mule by Foxey', text: "Refrescante y con carácter, este coctel que nos trae Foxey despierta nuestros sentidos desde el primer trago. La intensidad del jengibre se fusiona con la frescura cítrica del limón y la suavidad del vodka, todo servido en su clásica presentación helada que lo hace irresistible. Es chispeante, atrevido y perfecto para esos momentos donde lo clásico se encuentra con lo salvajemente refrescante. Ideal para tardes calurosas, noches con ritmo y conversaciones que fluyen como el hielo en la copa." },
     ],
     factTitle: "Sabías que",
     factText: (<p>
@@ -62,9 +60,9 @@ Aquí la cerveza no se toma, se vive. Tienen desde una pola negra intensa como t
 
   const barFooterProps = {
       backgroundColor: "#190f0f",
-      instagram:"https://www.instagram.com/example",
-      tiktok:"https://tiktok.com/example",
-      facebook:"https://facebook.com/example"
+      instagram:"https://www.instagram.com/foxeypub",
+      tiktok:"https://www.tiktok.com/@foxeypub",
+      facebook:"https://www.facebook.com/foxeypub"
     }
 
 
